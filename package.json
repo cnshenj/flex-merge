@@ -8,6 +8,10 @@
     "build": "tsc -p ./",
     "test": "jest"
   },
+  "repository": {	
+    "type": "git",
+    "url": "https://github.com/cnshenj/flex-merge.git"
+	},
   "devDependencies": {
     "@types/jest": "^26.0.0",
     "@types/minimatch": "^3.0.3",
