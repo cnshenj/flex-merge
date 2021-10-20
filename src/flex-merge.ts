@@ -41,7 +41,7 @@ export function merge(arg1: unknown, arg2?: unknown | MergeOptions, arg3?: Merge
         return arg1[0];
     }
 
-    let dest = arg1[0];
+    let dest = arg1[0] as unknown;
     for (let i = 1; i < arg1.length; ++i) {
         dest = mergePair(dest, arg1[i]);
     }
